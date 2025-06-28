@@ -1,0 +1,10 @@
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editor
+.vscode/
+
+# Archivos generados por sistemas de control (cache, etc.)
+.cache/
