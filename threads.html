@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberseguridad - Amenazas Comunes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans text-gray-800">
+    <!-- Barra de navegación -->
+    <nav class="bg-blue-900 text-white fixed top-0 w-full z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold" id="ciberTitle"><i class="fas fa-lock mr-2"></i>CiberseguridadKH</a>
+            <button id="navbar-toggle" class="md:hidden text-white focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-menu" class="hidden md:flex md:items-center md:space-x-4">
+                <a href="index.html" class="text-white hover:text-red-500 px-3 py-2 font-medium">Inicio</a>
+                <a href="threats.html" class="text-white hover:text-red-500 px-3 py-2 font-medium">Amenazas Comunes</a>
+                <a href="tips.html" class="text-white hover:text-red-500 px-3 py-2 font-medium">Consejos de Seguridad</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Amenazas Comunes -->
+    <section class="py-16 mt-16 md:mt-20">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold text-blue-600 text-center mb-8">Amenazas Comunes en Ciberseguridad</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Phishing -->
+                <div class="bg-white p-4 rounded-lg shadow-lg card-hover-effect">
+                    <<img src="Imagenes/pishing.jpg" alt="Phishing" class="w-full h-40 object-cover rounded-t-lg mb-4 transition-transform duration-300 transform hover:scale-105 hover:brightness-110">
+                    <h3 class="text-xl font-bold text-red-500 mb-2">Phishing</h3>
+                    <p class="text-gray-700">Ataques que buscan engañar a los usuarios para que revelen información personal, como contraseñas o datos bancarios, mediante correos electrónicos o sitios web falsos.</p>
+                </div>
+                <!-- Malware -->
+                <div class="bg-white p-4 rounded-lg shadow-lg card-hover-effect">
+                    <img src="Imagenes/malware.jpg" alt="Malware" class="w-full h-40 object-cover rounded-t-lg mb-4 transition-transform duration-300 transform hover:scale-105 hover:brightness-110">
+                    <h3 class="text-xl font-bold text-red-500 mb-2">Malware</h3>
+                    <p class="text-gray-700">Software malicioso diseñado para infiltrarse en sistemas, robar datos, dañar dispositivos o interrumpir operaciones, como virus, troyanos y spyware.</p>
+                </div>
+                <!-- Ransomware -->
+                <div class="bg-white p-4 rounded-lg shadow-lg card-hover-effect">
+                    <img src="Imagenes/ransomware.jpg" alt="Ransomware" class="w-full h-40 object-cover rounded-t-lg mb-4 transition-transform duration-300 transform hover:scale-105 hover:brightness-110">
+                    <h3 class="text-xl font-bold text-red-500 mb-2">Ransomware</h3>
+                    <p class="text-gray-700">Un tipo de malware que cifra los datos del usuario y exige un rescate para desbloquearlos, afectando a empresas y usuarios individuales.</p>
+                </div>
+                <!-- Ataques DDoS -->
+                <div class="bg-white p-4 rounded-lg shadow-lg card-hover-effect">
+                    <img src="Imagenes/ataqueddos.jpg" alt="Ataques DDoS" class="w-full h-40 object-cover rounded-t-lg mb-4 transition-transform duration-300 transform hover:scale-105 hover:brightness-110">
+                    <h3 class="text-xl font-bold text-red-500 mb-2">Ataques DDoS</h3>
+                    <p class="text-gray-700">Ataques de denegación de servicio distribuido que inundan servidores con tráfico para sobrecargarlos y hacer que los sitios web o servicios sean inaccesibles.</p>
+                </div>
+                <!-- Ingeniería Social -->
+                <div class="bg-white p-4 rounded-lg shadow-lg card-hover-effect">
+                    <img src="Imagenes/ingsocial.jpg" alt="Ingeniería Social" class="w-full h-40 object-cover rounded-t-lg mb-4 transition-transform duration-300 transform hover:scale-105 hover:brightness-110">
+                    <h3 class="text-xl font-bold text-red-500 mb-2">Ingeniería Social</h3>
+                    <p class="text-gray-700">Técnicas que manipulan a las personas para obtener información confidencial o acceso no autorizado, como pretextos o suplantación de identidad.</p>
+                </div>
+                <!-- Robo de Credenciales -->
+                <div class="bg-white p-4 rounded-lg shadow-lg card-hover-effect">
+                    <img src="Imagenes/roboc.jpg" alt="Robo de Credenciales" class="w-full h-40 object-cover rounded-t-lg mb-4 transition-transform duration-300 transform hover:scale-105 hover:brightness-110">
+                    <h3 class="text-xl font-bold text-red-500 mb-2">Robo de Credenciales</h3>
+                    <p class="text-gray-700">Ataques que buscan obtener nombres de usuario y contraseñas mediante keyloggers, phishing o violaciones de datos para acceder a sistemas protegidos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Carrusel de Casos Históricos (Slick Slider) -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-blue-600 text-center mb-8">Ataques Cibernéticos Famosos</h2>
+            <div class="historical-attacks-slider">
+                <!-- WannaCry (2017) -->
+                <div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg max-w-2xl mx-auto">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">WannaCry (2017)</h3>
+                        <p class="text-gray-700">Un ataque de ransomware que afectó a cientos de miles de computadoras en 150 países, explotando una vulnerabilidad de Windows y causando interrupciones en hospitales y empresas.</p>
+                    </div>
+                </div>
+                <!-- Equifax (2017) -->
+                <div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg max-w-2xl mx-auto">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Equifax (2017)</h3>
+                        <p class="text-gray-700">Una brecha de datos que expuso información personal de 147 millones de personas debido a una vulnerabilidad no parcheada en Apache Struts.</p>
+                    </div>
+                </div>
+                <!-- SolarWinds (2020) -->
+                <div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg max-w-2xl mx-auto">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">SolarWinds (2020)</h3>
+                        <p class="text-gray-700">Un ataque a la cadena de suministro que comprometió software de SolarWinds, afectando a gobiernos y empresas mediante un malware insertado en actualizaciones.</p>
+                    </div>
+                </div>
+                <!-- Colonial Pipeline (2021) -->
+                <div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg max-w-2xl mx-auto">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Colonial Pipeline (2021)</h3>
+                        <p class="text-gray-700">Un ataque de ransomware que paralizó el suministro de combustible en EE.UU., llevado a cabo por el grupo DarkSide tras explotar credenciales comprometidas.</p>
+                    </div>
+                </div>
+                <!-- Log4j (2021) -->
+                <div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg max-w-2xl mx-auto">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Log4j (2021)</h3>
+                        <p class="text-gray-700">Una vulnerabilidad en la biblioteca Log4j permitió la ejecución remota de código, afectando a millones de servidores y aplicaciones en todo el mundo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón Sticky de Contacto -->
+    <button id="contact-btn" class="fixed bottom-4 right-4 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-red-500 transition z-50 flex items-center justify-center md:px-4 md:py-2">
+        <i class="fas fa-envelope mr-0 md:mr-2"></i>
+        <span class="hidden md:inline">Contacto</span>
+    </button>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2025 Ciberseguridad Karen Herrera. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/6.0.0/bootbox.min.js"></script>
+    <script src="threats.js"></script>
+</body>
+</html>

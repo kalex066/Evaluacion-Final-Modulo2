@@ -1,0 +1,100 @@
+/* css reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}
+
+main {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#threats-list {
+    list-style-type: disc;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Estilos para Slick Slider */
+.historical-attacks-slider {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.historical-attacks-slider .slick-slide {
+    padding: 0 10px;
+}
+
+.historical-attacks-slider .slick-prev,
+.historical-attacks-slider .slick-next {
+    z-index: 10;
+}
+
+.historical-attacks-slider .slick-prev:before,
+.historical-attacks-slider .slick-next:before {
+    color: #1e40af; /* blue-600 */
+    font-size: 30px;
+}
+
+.historical-attacks-slider .slick-dots li button:before {
+    color: #1e40af; /* blue-600 */
+    font-size: 12px;
+}
