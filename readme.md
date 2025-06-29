@@ -1,12 +1,22 @@
 # CiberseguridadKH
 
-Este proyecto es una página web informativa sobre ciberseguridad, creada que abarca temas como:
+Este proyecto es una página web de Ciberseguridad, donde se explican conceptos clave, se brinden consejos de seguridad y se presenten ejemplos de ataques comunes y cómo prevenirlos.
+El sitio web tiene tres páginas con el siguiente contenido:
 
-- Amenazas comunes (Phishing, Malware, Ransomware, etc.)
-- Casos históricos de ataques cibernéticos
-- Consejos para proteger tus datos en línea
-- Formulario de contacto
-- Test interactivo para evaluar tus conocimientos de seguridad
+**Inicio**
+Introducción a la ciberseguridad.
+Barra de navegación con enlaces a las demás secciones.
+Imagen destacada con un mensaje llamativo.
+
+**Amenazas Comunes**
+Información sobre ataques cibernéticos como phishing, ransomware, malware y ataques DDoS.
+Uso de tarjetas o secciones interactivas para cada tipo de amenaza.
+Un slick slider con los casos mas importantes de ataques cibernéticos.
+
+**Consejos de Seguridad**
+Lista de buenas prácticas para protegerse en línea.
+Formulario de contacto para solicitar más información.
+Un modal con un "test de seguridad" donde el usuario pueda responder preguntas básicas y recibir retroalimentación.
 
 ## Tecnologías usadas
 
